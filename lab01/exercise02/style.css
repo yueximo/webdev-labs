@@ -17,14 +17,24 @@ section {
   padding-bottom: 15px;
 }
 
+h2 {
+  font-family: 'Rock 3D';
+}
+
 img {
   width: 100%;
+}
+
+iframe {
+  width: 100%;
+  min-height: 255px;
 }
 
 section h2,
 section p,
 section button {
-  margin: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /*
