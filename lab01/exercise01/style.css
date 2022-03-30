@@ -8,15 +8,15 @@ body {
 
 section {
   width: 400px;
-  border: solid 1px;
+  border: solid 1px gray;
 }
 
 img {
   width: 100%;
 }
 
-h2,
-p,
-button {
+section h2,
+section p,
+section button {
   margin: 10px;
 }
