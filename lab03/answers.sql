@@ -58,9 +58,6 @@ WHERE following.user_id = 26
 ORDER BY posts.id;
 
 
-
-
-
 -- Exercise 10
 SELECT posts.id, posts.pub_date, following.following_id, users.username
 FROM posts
@@ -72,11 +69,11 @@ ORDER BY posts.pub_date DESC;
 
 
 -- Exercise 11
-INSERT INTO bookmarks (user_id, post_id)
+INSERT INTO bookmarks(user_id, post_id)
 VALUES (26, 219);
-INSERT INTO bookmarks (user_id, post_id)
+INSERT INTO bookmarks(user_id, post_id)
 VALUES (26, 220);
-INSERT INTO bookmarks (user_id, post_id)
+INSERT INTO bookmarks(user_id, post_id)
 VALUES (26, 221);
 
 -- Exercise 12
