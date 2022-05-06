@@ -37,7 +37,7 @@ def exercise1():
 ##############
 # Exercise 2 #
 ##############
-@app.route('/quote')
+@app.route('/quote') 
 def exercise2():
     return render_template(
         'quote-of-the-day.html',
